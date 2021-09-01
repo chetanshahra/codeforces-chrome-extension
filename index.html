@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style type="text/css">
+        #mainPopup {
+            padding: 10px;
+            height: 400px;
+            width: 700px;
+        }
+        h1 {
+            font-size: 2em;
+        }
+        table, th, td {
+        border:1px solid black;
+        }
+    </style>
+    <title>CF Extension</title>
+</head>
+
+<body>
+    <div id="mainPopup">
+        <h1 style="text-align: center;"><a href="https://codeforces.com/contests">Upcoming Contests</a></h1>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Contest Id</th>
+                <th scope="col">Contest Name</th>
+                <th scope="col">Start Date</th>
+                <th scope="col">Start Time</th>
+                <th scope="col">Link</th>
+              </tr>
+            </thead>
+            <tbody id = "contestList">
+              
+            </tbody>
+          </table>
+    </div>
+</body>
+
+<script src="./app.js"></script>
+</html>
+
